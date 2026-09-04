@@ -11,7 +11,7 @@ API_HASH = os.environ.get('API_HASH', 'YOUR_API_HASH')
 BOT_TOKEN = os.environ.get('BOT_TOKEN', 'YOUR_BOT_TOKEN')
 
 # ================= CONSTANTS & MEDIA =================
-IMG_URL = "https://telegra.ph/file/0baef1cf67a4e8d356c9a.jpg" # Apna welcome image URL daal de yaha
+IMG_URL = "https://cdn.pixabay.com/photo/2024/09/22/23/01/ai-generated-9067131_640.jpg" # Apna welcome image URL daal de yaha
 ITEMS_PER_PAGE = 10 
 
 # In-memory session data save karne ke liye (Taki heavy text limits avoid ho sake)
