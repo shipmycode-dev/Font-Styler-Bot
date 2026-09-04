@@ -1,7 +1,16 @@
 # main.py
 import os
 import threading
+import asyncio
 from http.server import BaseHTTPRequestHandler, HTTPServer
+
+# ================= PYTHON 3.10+ ASYNCIO FIX =================
+# Pyrogram ko naye Python versions ke sath compatible banane ke liye
+try:
+    asyncio.get_event_loop()
+except RuntimeError:
+    asyncio.set_event_loop(asyncio.new_event_loop())
+
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery, Message
 from style import apply_style, get_total_styles
