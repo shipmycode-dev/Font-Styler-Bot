@@ -6,9 +6,9 @@ from style import apply_style, get_total_styles
 
 # ================= ENVIRONMENT VARIABLES =================
 # User github se dale ya deployment settings se, dono support karega.
-API_ID = int(os.environ.get('API_ID', '1234567')) # Apni default API ID replace kar dena if needed
-API_HASH = os.environ.get('API_HASH', 'YOUR_API_HASH') 
-BOT_TOKEN = os.environ.get('BOT_TOKEN', 'YOUR_BOT_TOKEN')
+API_ID = int(os.environ.get('API_ID', '32541562')) # Apni default API ID replace kar dena if needed
+API_HASH = os.environ.get('API_HASH', 'e37e4432298d5a5eb4a6e32c18804283') 
+BOT_TOKEN = os.environ.get('BOT_TOKEN', '8813217868:AAFplgrX7Kie_rzursBp1u689UJW5GyhsJ0')
 
 # ================= CONSTANTS & MEDIA =================
 IMG_URL = "https://cdn.pixabay.com/photo/2024/09/22/23/01/ai-generated-9067131_640.jpg" # Apna welcome image URL daal de yaha
